@@ -1,4 +1,4 @@
-# Hidroestimador
+# hidroestimador
 
 Pipeline en R para descargar, procesar y extraer datos de lluvia del Global Hydro-Estimator (GHE) de NOAA, y compararlos con registros de estaciones meteorológicas en tierra.
 
