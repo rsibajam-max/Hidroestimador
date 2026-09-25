@@ -30,7 +30,7 @@ Descarga archivos del GHE desde el bucket público de NOAA en AWS S3.
 - **Entrada:** rango de fechas (inicio, fin)
 - **Salida:** archivos `.nc.gz` en la carpeta `descarga_Hidroestimador`
 
-**Nota:** el descargador original apuntaba al FTP de NOAA (`ftp://ftp.star.nesdis.noaa.gov/...`), retirado en 2025. La versión actual apunta al bucket de AWS S3 donde NOAA migró los datos.
+**Nota:** el descargador original apuntaba al FTP de NOAA (`ftp://ftp.star.nesdis.noaa.gov/...`). Ese FTP fue retirado y los datos migraron temporalmente a un bucket de AWS S3 (`noaa-ghe-pds`). En 2025, el producto GHE fue descontinuado por completo y reemplazado por el Enterprise Rain Rate (ERR). El bucket de AWS que contiene los datos históricos del GHE cubre el período **2019–2025** y ya no recibe actualizaciones.
 
 ### `descomprimir-hidroestimador.R`
 
