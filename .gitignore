@@ -47,3 +47,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Archivos de datos del GHE
+*.nc
+*.nc.gz
+descarga_Hidroestimador/
